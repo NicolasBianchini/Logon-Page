@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <title>Cadastro</title>
+</head>
+<body>
+
+  <section id="section-1">
+    <aside>
+      <div>
+        <img id="img-1" src="images/Login-amico.png" alt="">
+      </div>
+    </aside>
+  </section>
+  
+  <main>
+    <div class="box-1">
+      <h1 class="text-1">Cadastre-se</h1>
+
+      <section id="section-2">
+        <div class="txt-1">
+          <input class="input-1" type="name" placeholder="Nome:">
+        </div>
+
+        <div class="txt-1">
+          <input class="input-1" type="email" placeholder="Email:" required title="Por favor, insira um email válido">
+        </div>
+
+        <div class="txt-1">
+          <input class="input-1" type="tel" placeholder="Telefone:">
+        </div>
+
+        <div class="txt-1">
+          <input class="input-1" id="date" type="date" placeholder="selecione a data">
+        </div>
+
+        <div class="txt-2">
+          <input class="input-1" id="password" type="password" placeholder="Senha:" required>
+          <button type="button" id="toggle-password" class="ver-senha"><i class="fas fa-eye"></i></button>
+        </div>
+
+        <div class="txt-3">
+          <input class="input-1" id="password2" type="password" placeholder="Repetir a Senha:" required>
+          <button type="button" id="toggle-password2" class="ver-senha"><i class="fas fa-eye"></i></button>
+          
+        </div>
+      </section>
+
+      <content>
+        <section class="cadastro">
+
+          <button class="button-2">Cadastrar</button>
+
+        </section>
+      </content>
+
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
